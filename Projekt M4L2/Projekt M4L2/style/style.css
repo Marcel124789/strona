@@ -1,0 +1,180 @@
+body {
+	width: 1440px;
+	margin: 0;
+	padding: 0;
+	background-color: #202020;
+	color: #dedede;
+	font-family: 'Marnope', sans-serif;
+}
+
+header {
+	width: 90%;
+	height: 80px;
+	padding: 0 100px;
+	position: fixed;
+	background-color: hsl(126, 47%, 31%);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header a {
+	margin-right: 25px;
+	font-weight: 700;
+	font-size: 18px;
+	color: #dedede;
+	text-decoration: none;
+}
+
+.logo {
+	font-size: 20px;
+	color: #dedede;
+}
+
+.prevwiew {
+	padding: 200px 100px 100px 100px;
+	display: flex;
+}
+
+.prevwiew img {
+	width: 400px;
+	height: 400px;
+}
+
+.text h1 {
+	color: #dedede;
+	font-family: Manrope;
+	font-size: 64px;
+	font-weight: 700;
+	line-height: 70px;
+	letter-spacing: -0.5px;
+	text-align: left;
+}
+
+.text p {
+	color: #959595;
+	font-family: Manrope;
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 36px;
+	letter-spacing: -0.5px;
+	text-align: left;
+	padding: 100px 0px;
+}
+.text a {
+	font-family: Manrope;
+	font-size: 26px;
+	font-weight: 600;
+	text-align: left;
+	padding: 32px 150px;
+	color: #dedede;
+	background-color: #297330;
+}
+
+.info {
+	margin-left: 100px;
+}
+
+.info__text {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	font-size: 20px;
+	letter-spacing: 1.5px;
+	color: #dedede;
+	opacity: 70%;
+}
+
+.info__images {
+	display: flex;
+	gap: 30px;
+}
+
+.info__column {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+.info__column--margin{
+	margin-top: 150px;
+}
+.hulk {
+	margin-left: 100px;
+}
+
+.hulk__text {
+	text-align: center;
+	margin: 200px 0px 100px 0px;
+	letter-spacing: 0.5px;
+	font-size: 36px;
+	font-weight: 700px;
+}
+.hulk__images{
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	
+
+}
+.hulk__row{
+	display: flex;
+	gap: 20px;
+	flex-direction: row
+}
+.toys__text {
+	text-align: center;
+	margin: 200px 0px 100px 0px;
+	letter-spacing: 0.5px;
+	font-size: 36px;
+	font-weight: 700px;
+}
+
+.toys__row{
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+	align-items: center;
+}
+.toys__img--size {
+	height: 80%;
+} 		
+footer{
+	margin-top: 200px;
+	margin-left: 100px;
+}
+
+.footer__header {
+	font-family: Manrope;
+	text-align: center;
+	font-size: 36px;
+	letter-spacing: 0.5px;
+}
+.footer__text{
+	font-family: Manrope;
+	text-align: center;
+	margin: 20px 0px;
+	font-size: 24px;
+	letter-spacing: 0.5px;
+	opacity: 70%;
+	line-height: 36px;
+	
+}
+
+
+
+.footer__info {
+	font-family: Manrope;
+	text-align: center;
+	margin-bottom: 100px;
+	margin-top: 50px;
+}
+
+.footer__info a{
+	font-family: Manrope;
+	font-size: 16px;
+	font-weight: 600;
+	text-align: left;
+	padding: 16px 100px;
+	color: #dedede;
+	background-color: #297330;
+}
